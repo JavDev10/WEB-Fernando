@@ -114,7 +114,7 @@ div{
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 25px;
+  padding: 30px;
   width: 100%;
   font-family: "Rubik";
   background-color: #dee0e4;
@@ -148,7 +148,7 @@ div{
   
 }
 .descripcion-text{
-  text-justify:auto;
+    text-justify:auto;
     width: 100%;
     max-width: 1180px;
     margin-right: auto;
@@ -160,6 +160,35 @@ div{
     font-weight: 100;
     color: #0f0f0f;
 }
+
+.certificacion{
+  padding: 40px;
+  margin: 15px;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  align-items: center;
+  justify-content: center;
+}
+.certificacion h3{
+  margin: 10px;
+  font-weight: 400;
+  font-family: 'Ubuntu';
+  text-align: left;
+  font-size: 24px; 
+  color: #0f0f0f;
+}
+
+.certificacion_imagenes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.certificacion_imagenes img{
+  width: 120px;
+  height: 120px;
+}
+
 
 /*Servicios */
 
