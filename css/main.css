@@ -6,14 +6,13 @@
   box-sizing: border-box;
 }
 body{
-  font-family:'Ubuntu', sans-serif;
+  font-family:'Rubik', sans-serif;
   font-size: 400;
 }
 div{
   display: block;
 }
 .home-body{
-  
   top: 0;
   bottom: 0;
   left: 0;
@@ -21,7 +20,7 @@ div{
 }
 .header{
   width: 100%;
-  height: 120px;
+  height: 110px;
   display: grid;
   grid-template-rows: 1fr 1fr;
   font-family: "Rubik";
@@ -58,7 +57,7 @@ div{
   margin-bottom: 10px;
 }
 .nav-logo img{
-  height: 60px;
+  height: 50px;
   width: 100px;
 }
 .nav-link{
@@ -90,7 +89,7 @@ div{
   background-size: cover;
   position: relative;
 	width: 100%;
-  height: 450px;
+  height: 420px;
   background-color: #00000063; 
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
@@ -154,7 +153,7 @@ div{
   
 }
 .descripcion-text{
-    text-justify:auto;
+    text-align: center;
     width: 100%;
     max-width: 1180px;
     margin-right: auto;
@@ -163,78 +162,87 @@ div{
     padding-bottom: 40px;
     font-size: 22px;
     font-family: 'Rubik';
-    font-weight: 100;
+    font-weight: 200;
     color: #0f0f0f;
 }
 
-.certificacion{
+.clientes{
   padding: 40px;
   margin: 15px;
   display: grid;
   grid-template-columns: 600px 600px;
+  height: 200px;
   align-items: center;
   justify-content: center;
 }
-.certificacion h3{
+.clientes h3{
   margin: 10px;
   font-weight: 400;
   font-family: 'Ubuntu';
-  text-align: left;
+  text-align: center;
   font-size: 24px; 
   color: #0f0f0f;
 }
 
-.certificacion_imagenes{
+.clientes_imagenes{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 80px;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 10px;
 }
-.certificacion_imagenes img{
+.clientes_imagenes img{
   width: 120px;
   height: 120px;
 }
 
 
 /*Servicios */
-
-.posts{
+.servicios{
   padding: 0 80px 40px;
   background-color: #dee0e4;
   border-bottom: solid 2px #678983;
 }
-.posts h2{
-  padding: 30px 0px 15px 0px;
+
+.servicios h2{
+  padding: 35px 0px 0px 0px;
+  
   text-align: center;
-  font-size: 35PX;
+  font-size: 28PX;
   font-weight: 500;
   color: #0f0f0f;
 }
-
+.posts{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
 .posts-blog{
-  display: inline-block;
-  padding: 15px;
-  max-width: 32%;
-  margin-bottom: 50px;
+  padding: 4px;
+  margin-top: 35px;
+  margin-bottom: 35px;
   background-color: #FFF;
   border-radius: 5px;
   font-family: 'Rubik';
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .posts-blog img{
-  width: 100%;
-  
+ width: 100%;
+ border-radius: 5px;
+ border-bottom-left-radius: 0px;
+ border-bottom-right-radius: 0px;
 }
 .posts-blog h3{
   margin: 15px 0;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   color: #0f0f0f;
 }
 
 .posts-blog p{
-  margin-bottom: 32px;
+  margin: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
   font-weight: 100;
   color: #0f0f0f;
 }
@@ -243,19 +251,10 @@ div{
   font-style: italic;
   font-size: 18px;
   text-decoration: none;
+  margin: 5px;
   color: #232e2b;
 }
 
-.clientes {
-  padding: 15px;
-}
-.clientes h2{
-  padding: 30px 0px 15px 0px;
-  text-align: left;
-  font-size: 35PX;
-  font-weight: 500;
-  color: #0f0f0f;
-}
 footer{
   width: 100%;
   height: 60px;
