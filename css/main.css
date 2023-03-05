@@ -255,6 +255,67 @@ div{
   color: #232e2b;
 }
 
+/* contacto */
+
+.contacto{
+  margin-left: auto ;
+  margin-right: auto ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dee0e4;
+  padding: 10px 0px 10px 0px;
+  
+
+}
+.contacto-container{
+  background-image: linear-gradient(to bottom, #ffffff, #fff, #fff, #fff, #455c581d);
+  height: 600px;
+  width: 500px;
+  margin-bottom: 120px;
+  margin-top: 20px;
+
+  border-top-left-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.contacto-container h3{
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+  
+  font-weight: 400;
+  font-size: 38px;
+  color: #0f0f0f;
+}
+.contacto-info{
+  height: 400px;
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacto-info ul{
+  margin-top: 50px;
+  padding: 10px;
+}
+.contacto-info li{
+  padding: 18px 0 18px 0;
+  color: #0f0f0f;
+}
+.contacto-img{
+  margin-top: 20px;
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  
+}
+.contacto-img img{
+  width: 100%;
+  
+}
+
 footer{
   width: 100%;
   height: 60px;
