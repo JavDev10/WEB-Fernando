@@ -160,7 +160,7 @@ div{
   
 }
 .descripcion-text{
-    text-align: center;
+    text-align: justify;
     width: 100%;
     max-width: 1180px;
     margin-right: auto;
